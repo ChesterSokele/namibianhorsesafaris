@@ -1,0 +1,61 @@
+# Namibia Horse Safaris — robots.txt
+# Standard search crawlers
+User-agent: *
+Allow: /
+
+# ===== AI answer-engine / assistant crawlers =====
+# Explicitly welcomed so ChatGPT, Gemini, Claude, Perplexity and other
+# AI answer engines can index and cite this site (GEO / AEO).
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+Sitemap: https://www.namibiahorsesafaris.com/sitemap.xml
